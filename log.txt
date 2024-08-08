@@ -1,0 +1,321 @@
+23/07/2024 10:48:49 a. m.   Error controlado: El stored procedure no ha sido cargado o no existe en la bd: sp_pp_procesos_leer
+23/07/2024 10:48:49 a. m.   Ruta de certificación: \\amznfsxgfwmhx7z.siesacloud.com\share\invoices\SuperMed\
+23/07/2024 10:48:49 a. m.   Cliente: Nube
+23/07/2024 10:48:49 a. m.   Inicia proceso de certificación FE Siesa UBL2.1
+23/07/2024 10:48:49 a. m.   Aplicativo:Rebuilder
+23/07/2024 10:48:49 a. m.   Documento 001-FEV-4070
+23/07/2024 10:48:49 a. m.   Rowid: 46463
+23/07/2024 10:48:49 a. m.   Validacion estado IndicadorCFD
+23/07/2024 10:48:49 a. m.   Validacion de generacion de XML Manual o Diseñador
+23/07/2024 10:48:55 a. m.   Se genera XML diseñador.
+23/07/2024 10:48:55 a. m.   XML generado: <?xml version="1.0" encoding="utf-8"?>
+<Invoice xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2"
+         xmlns:ds="http://www.w3.org/2000/09/xmldsig#"
+         xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
+         xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2"
+         xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:sts="dian:gov:co:facturaelectronica:Structures-2-1"
+         xmlns:xades="http://uri.etsi.org/01903/v1.3.2#"
+         xmlns:xades141="http://uri.etsi.org/01903/v1.4.1#"
+         xsi:schemaLocation="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2     http://docs.oasis-open.org/ubl/os-UBL-2.1/xsd/maindoc/UBL-Invoice-2.1.xsd">
+   <ext:UBLExtensions>
+      <ext:UBLExtension>
+         <ext:ExtensionContent>
+            <sts:DianExtensions>
+               <sts:InvoiceControl>
+                  <sts:InvoiceAuthorization>18764074840381</sts:InvoiceAuthorization>
+                  <sts:AuthorizationPeriod>
+                     <cbc:StartDate>2024-07-11</cbc:StartDate>
+                     <cbc:EndDate>2026-07-10</cbc:EndDate>
+                  </sts:AuthorizationPeriod>
+                  <sts:AuthorizedInvoices>
+                     <sts:Prefix>FE</sts:Prefix>
+                     <sts:From>4070</sts:From>
+                     <sts:To>10000</sts:To>
+                  </sts:AuthorizedInvoices>
+               </sts:InvoiceControl>
+               <sts:InvoiceSource>
+                  <cbc:IdentificationCode listAgencyID="6"
+                                          listAgencyName="United Nations Economic Commission for Europe"
+                                          listSchemeURI="urn:oasis:names:specification:ubl:codelist:gc:CountryIdentificationCode-2.1">CO</cbc:IdentificationCode>
+               </sts:InvoiceSource>
+               <sts:AuthorizationProvider><sts:AuthorizationProviderID schemeAgencyID='195' schemeAgencyName='CO, DIAN (Dirección de Impuestos y Aduanas Nacionales)' schemeID='4' schemeName='31'>800197268</sts:AuthorizationProviderID></sts:AuthorizationProvider>
+               <sts:QRCode>https://muisca.dian.gov.co/WebFacturaelectronica/paginas/VerificarFacturaElectronicaExterno.faces</sts:QRCode>
+            </sts:DianExtensions>
+         </ext:ExtensionContent>
+      </ext:UBLExtension>
+   </ext:UBLExtensions>
+   <cbc:UBLVersionID>UBL 2.1</cbc:UBLVersionID>
+   <cbc:CustomizationID>10</cbc:CustomizationID>
+   <cbc:ProfileID>DIAN 2.1: Factura Electrónica de Venta</cbc:ProfileID>
+   <cbc:ProfileExecutionID>1</cbc:ProfileExecutionID>
+   <cbc:ID>FE4070</cbc:ID>
+   <cbc:IssueDate>2024-07-15</cbc:IssueDate>
+   <cbc:IssueTime>08:45:59-05:00</cbc:IssueTime>
+   <cbc:DueDate>2024-10-15</cbc:DueDate>
+   <cbc:InvoiceTypeCode listAgencyID="195"
+                        listAgencyName="CO, DIAN (Direccion de Impuestos y Aduanas Nacionales)"
+                        listSchemeURI="http://www.dian.gov.co/contratos/facturaelectronica/v1/InvoiceType">01</cbc:InvoiceTypeCode>
+   <cbc:Note/>
+   <cbc:Note/>
+   <cbc:Note/>
+   <cbc:Note/>
+   <cbc:Note/>
+   <cbc:Note/>
+   <cbc:Note/>
+   <cbc:Note/>
+   <cbc:Note/>
+   <cbc:Note/>
+   <cbc:Note/>
+   <cbc:Note/>
+   <cbc:Note/>
+   <cbc:Note/>
+   <cbc:Note/>
+   <cbc:Note/>
+   <cbc:Note/>
+   <cbc:Note/>
+   <cbc:Note/>
+   <cbc:Note/>
+   <cbc:Note/>
+   <cbc:Note/>
+   <cbc:Note/>
+   <cbc:Note/>
+   <cbc:Note/>
+   <cbc:Note/>
+   <cbc:Note/>
+   <cbc:Note/>
+   <cbc:Note/>
+   <cbc:Note/>
+   <cbc:Note/>
+   <cbc:Note/>
+   <cbc:Note/>
+   <cbc:Note/>
+   <cbc:Note/>
+   <cbc:Note/>
+   <cbc:Note/>
+   <cbc:Note/>
+   <cbc:Note/>
+   <cbc:Note/>
+   <cbc:Note/>
+   <cbc:Note/>
+   <cbc:Note/>
+   <cbc:Note/>
+   <cbc:Note/>
+   <cbc:Note/>
+   <cbc:Note/>
+   <cbc:Note/>
+   <cbc:Note/>
+   <cbc:Note/>
+   <cbc:Note>001|MI RED BARRANQUILLA IPS SAS|6083412.00</cbc:Note>
+   <cbc:DocumentCurrencyCode>COP</cbc:DocumentCurrencyCode>
+   <cbc:LineCountNumeric>1</cbc:LineCountNumeric>
+   <cac:OrderReference>
+      <cbc:ID>4562</cbc:ID>
+   </cac:OrderReference>
+   <cac:AccountingSupplierParty>
+      <cbc:AdditionalAccountID>1</cbc:AdditionalAccountID>
+      <cac:Party>
+         <cbc:IndustryClassificationCode>4645</cbc:IndustryClassificationCode>
+         <cac:PartyName>
+            <cbc:Name>SUPER MED SAS</cbc:Name>
+         </cac:PartyName>
+         <cac:PhysicalLocation>
+            <cac:Address>
+               <cbc:ID>08001</cbc:ID>
+               <cbc:CityName>Barranquilla</cbc:CityName>
+               <cbc:PostalZone>000000</cbc:PostalZone>
+               <cbc:CountrySubentity>Atlántico</cbc:CountrySubentity>
+               <cbc:CountrySubentityCode>08</cbc:CountrySubentityCode>
+               <cac:AddressLine>
+                  <cbc:Line>CRA 57  99A 65 OFI 907</cbc:Line>
+               </cac:AddressLine>
+               <cac:Country>
+                  <cbc:IdentificationCode>CO</cbc:IdentificationCode><cbc:Name languageID='es'>COLOMBIA</cbc:Name></cac:Country>
+            </cac:Address>
+         </cac:PhysicalLocation>
+         <cac:PartyTaxScheme>
+            <cbc:RegistrationName>SUPERMED SAS</cbc:RegistrationName><cbc:CompanyID schemeAgencyID='195' schemeAgencyName='CO, DIAN (Dirección de Impuestos y Aduanas Nacionales)'  schemeID='3' schemeName='31'>901249895</cbc:CompanyID><cbc:TaxLevelCode>O-23</cbc:TaxLevelCode>
+            <cac:RegistrationAddress>
+               <cbc:ID>08001</cbc:ID>
+               <cbc:CityName>Barranquilla</cbc:CityName>
+               <cbc:CountrySubentity>Atlántico</cbc:CountrySubentity>
+               <cbc:CountrySubentityCode>08</cbc:CountrySubentityCode>
+               <cac:AddressLine>
+                  <cbc:Line>CARRERA 57 99A 65</cbc:Line>
+               </cac:AddressLine>
+               <cac:Country>
+                  <cbc:IdentificationCode>CO</cbc:IdentificationCode><cbc:Name languageID='es'>COLOMBIA</cbc:Name></cac:Country>
+            </cac:RegistrationAddress>
+            <cac:TaxScheme>
+               <cbc:ID>01</cbc:ID>
+               <cbc:Name>IVA</cbc:Name>
+            </cac:TaxScheme>
+         </cac:PartyTaxScheme>
+         <cac:PartyLegalEntity>
+            <cbc:RegistrationName>SUPERMED SAS</cbc:RegistrationName><cbc:CompanyID schemeAgencyID='195' schemeAgencyName='CO, DIAN (Dirección de Impuestos y Aduanas Nacionales)'  schemeID='3' schemeName='31'>901249895</cbc:CompanyID><cac:CorporateRegistrationScheme>
+               <cbc:ID>FE</cbc:ID>
+               <cbc:Name>001</cbc:Name>
+            </cac:CorporateRegistrationScheme>
+         </cac:PartyLegalEntity>
+         <cac:Contact>
+            <cbc:Name>JENIFER JOHANA PALACIO BONFANTE</cbc:Name>
+            <cbc:Telephone>3148699</cbc:Telephone>
+            <cbc:ElectronicMail>gerencia.administrativa@supermed.com.co</cbc:ElectronicMail>
+         </cac:Contact>
+      </cac:Party>
+      <cac:SellerContact>
+         <cbc:ID>Generico</cbc:ID>
+         <cbc:Name>Genérico</cbc:Name>
+      </cac:SellerContact>
+   </cac:AccountingSupplierParty>
+   <cac:AccountingCustomerParty>
+      <cbc:SupplierAssignedAccountID>901139193</cbc:SupplierAssignedAccountID>
+      <cbc:AdditionalAccountID>1</cbc:AdditionalAccountID>
+      <cac:Party>
+         <cac:PartyName>
+            <cbc:Name>MI RED BARRANQUILLA IPS SAS</cbc:Name>
+         </cac:PartyName>
+         <cac:PhysicalLocation>
+            <cac:Address>
+               <cbc:ID>08001</cbc:ID>
+               <cbc:CityName>Barranquilla</cbc:CityName>
+               <cbc:CountrySubentity>Atlántico</cbc:CountrySubentity>
+               <cbc:CountrySubentityCode>08</cbc:CountrySubentityCode>
+               <cac:AddressLine>
+                  <cbc:Line>VIA 40 N 73 290 PISO 9 ED. MIX EMPRES.</cbc:Line>
+               </cac:AddressLine>
+               <cac:Country>
+                  <cbc:IdentificationCode>CO</cbc:IdentificationCode><cbc:Name languageID='es'>COLOMBIA</cbc:Name></cac:Country>
+            </cac:Address>
+         </cac:PhysicalLocation>
+         <cac:PartyTaxScheme>
+            <cbc:RegistrationName>MI RED BARRANQUILLA IPS SAS</cbc:RegistrationName><cbc:CompanyID schemeAgencyID='195' schemeAgencyName='CO, DIAN (Dirección de Impuestos y Aduanas Nacionales)'  schemeID='1' schemeName='31'>901139193</cbc:CompanyID><cbc:TaxLevelCode>O-23</cbc:TaxLevelCode>
+            <cac:RegistrationAddress>
+               <cbc:ID>08001</cbc:ID>
+               <cbc:CityName>Barranquilla</cbc:CityName>
+               <cbc:CountrySubentity>Atlántico</cbc:CountrySubentity>
+               <cbc:CountrySubentityCode>08</cbc:CountrySubentityCode>
+               <cac:AddressLine>
+                  <cbc:Line>VIA 40 N 73 290 PISO 9 ED. MIX EMPRES.</cbc:Line>
+               </cac:AddressLine>
+               <cac:Country>
+                  <cbc:IdentificationCode>CO</cbc:IdentificationCode><cbc:Name languageID='es'>COLOMBIA</cbc:Name></cac:Country>
+            </cac:RegistrationAddress>
+            <cac:TaxScheme>
+               <cbc:ID>01</cbc:ID>
+               <cbc:Name>IVA</cbc:Name>
+            </cac:TaxScheme>
+         </cac:PartyTaxScheme>
+         <cac:PartyLegalEntity>
+            <cbc:RegistrationName>MI RED BARRANQUILLA IPS SAS</cbc:RegistrationName><cbc:CompanyID schemeAgencyID='195' schemeAgencyName='CO, DIAN (Dirección de Impuestos y Aduanas Nacionales)'  schemeID='1' schemeName='31'>901139193</cbc:CompanyID></cac:PartyLegalEntity>
+         <cac:Contact>
+            <cbc:Name>YAMIL JIMENEZ</cbc:Name>
+            <cbc:Telephone/>
+            <cbc:Telefax/>
+            <cbc:ElectronicMail>comprasfarmacia@miredips.org</cbc:ElectronicMail>
+         </cac:Contact>
+      </cac:Party>
+   </cac:AccountingCustomerParty>
+   <cac:Delivery>
+      <cbc:ActualDeliveryDate>2024-07-15</cbc:ActualDeliveryDate>
+      <cbc:ActualDeliveryTime>00:00:00</cbc:ActualDeliveryTime>
+      <cac:DeliveryAddress>
+         <cbc:ID>08001</cbc:ID>
+         <cbc:CityName>Barranquilla</cbc:CityName>
+         <cbc:CountrySubentity>Atlántico</cbc:CountrySubentity>
+         <cbc:CountrySubentityCode>08</cbc:CountrySubentityCode>
+         <cac:AddressLine>
+            <cbc:Line>VIA 40 N 73 290 PISO 9 ED. MIX EMPRES.</cbc:Line>
+         </cac:AddressLine>
+         <cac:Country>
+            <cbc:IdentificationCode>CO</cbc:IdentificationCode><cbc:Name languageID='es'>COLOMBIA</cbc:Name></cac:Country>
+      </cac:DeliveryAddress>
+   </cac:Delivery>
+   <cac:PaymentMeans>
+      <cbc:ID>2</cbc:ID>
+      <cbc:PaymentMeansCode>1</cbc:PaymentMeansCode>
+      <cbc:PaymentDueDate>2024-10-15</cbc:PaymentDueDate>
+   </cac:PaymentMeans>
+   <cac:LegalMonetaryTotal><cbc:LineExtensionAmount currencyID='COP'>6083412.00</cbc:LineExtensionAmount><cbc:TaxExclusiveAmount currencyID='COP'>0.00</cbc:TaxExclusiveAmount><cbc:TaxInclusiveAmount currencyID='COP'>6083412.00</cbc:TaxInclusiveAmount><cbc:AllowanceTotalAmount currencyID='COP'>0.00</cbc:AllowanceTotalAmount><cbc:ChargeTotalAmount currencyID='COP'>0.00</cbc:ChargeTotalAmount><cbc:PrepaidAmount currencyID='COP'>0.00</cbc:PrepaidAmount><cbc:PayableRoundingAmount currencyID='COP'>0.00</cbc:PayableRoundingAmount><cbc:PayableAmount currencyID='COP'>6083412.00</cbc:PayableAmount></cac:LegalMonetaryTotal>
+   <cac:InvoiceLine>
+      <cbc:ID>1</cbc:ID>
+      <cbc:Note/>
+      <cbc:Note/>
+      <cbc:Note/>
+      <cbc:Note/>
+      <cbc:Note/>
+      <cbc:Note/>
+      <cbc:Note/>
+      <cbc:Note/>
+      <cbc:Note/>
+      <cbc:Note/>
+      <cbc:Note/><cbc:InvoicedQuantity unitCode='NIU'>4</cbc:InvoicedQuantity><cbc:LineExtensionAmount currencyID='COP'>6083412.00</cbc:LineExtensionAmount><cbc:FreeOfChargeIndicator>false</cbc:FreeOfChargeIndicator>
+      <cac:Item>
+         <cbc:Description>SURFACTANTE PULMONAR (CUROSURF) VIAL 3ML</cbc:Description>
+         <cac:SellersItemIdentification>
+            <cbc:ID>19906076-01</cbc:ID>
+         </cac:SellersItemIdentification>
+         <cac:StandardItemIdentification><cbc:ID  schemeID='999' schemeName='Generico'>3182</cbc:ID></cac:StandardItemIdentification>
+         <cac:ItemInstance>
+            <cac:LotIdentification>
+               <cbc:LotNumberID>1188554</cbc:LotNumberID>
+               <cbc:ExpiryDate>2025-07-31</cbc:ExpiryDate>
+            </cac:LotIdentification>
+         </cac:ItemInstance>
+      </cac:Item>
+      <cac:Price><cbc:PriceAmount currencyID='COP'>1520853.00</cbc:PriceAmount><cbc:BaseQuantity unitCode='NIU'>4.00</cbc:BaseQuantity></cac:Price>
+   </cac:InvoiceLine>
+</Invoice>
+
+23/07/2024 10:48:55 a. m.   Genera solo UBL:
+23/07/2024 10:48:55 a. m.   Inicio de peticion a SW Token.
+23/07/2024 10:48:55 a. m.   Obteniendo IP.
+23/07/2024 10:48:55 a. m.   Encriptando contraseña.
+23/07/2024 10:48:55 a. m.   Conectando a url pst siesa: https://siesafe.siesacloud.com/GeneraToken.svc?wsdl
+23/07/2024 10:48:55 a. m.   Tiempo de generacion de TOKEN en Millisegundos:458,3889
+23/07/2024 10:48:55 a. m.   XML Respuesta WS: <RESPCOMANDO><CODIGO>-1</CODIGO><MENSAJE>EXITO</MENSAJE><TOKEN>eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL2V4cGlyYXRpb24iOiI2Mzg1NzM0ODk0NzEwMTQyNjYiLCJGaXJtYVRTUCI6IkdvOFNtUWszK3N3czlxMkk4blg5QVo2a2NKelRndzFUckhsRW53bGtwNk02Q3FYdnVBTGx4YU1nbk5QZDVNejJGNXZMc21FamNCOHdPelBFWXpJY0JFeU5LenZKMTQzTUlmR2lzTzY5cU1yWmV3Rk1QazI1QnBlMXMybUo5OHY3aEZmSWRVSDZYclRIeEZXellyNzREOUxSd3NFdDd3WlNRL09kOWtTREpxWT0iLCJJcENsaWVudGUiOiIxMC4xNTguMS4xMjQiLCJOaXRGYXR1cmFkb3IiOiI5MDEyNDk4OTUiLCJpc3MiOiJUU1AgU29sdXRpb24iLCJhdWQiOiJodHRwOi8vd3d3LnRzcC1zb2x1dGlvbi5jb20vQ29uc3VsdGEiLCJleHAiOjE3MjE3NTIxNDcsIm5iZiI6MTcyMTc0ODU0N30.f5pAbpOwk01KxfdPo7CFCQZFUyw1iXba_cTTapd9evs</TOKEN></RESPCOMANDO>
+23/07/2024 10:48:55 a. m.   Fin de peticion a SW Token.
+23/07/2024 10:48:55 a. m.   Creacion de JSON envio documento
+23/07/2024 10:48:55 a. m.   JSON Peticion: {"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL2V4cGlyYXRpb24iOiI2Mzg1NzM0ODk0NzEwMTQyNjYiLCJGaXJtYVRTUCI6IkdvOFNtUWszK3N3czlxMkk4blg5QVo2a2NKelRndzFUckhsRW53bGtwNk02Q3FYdnVBTGx4YU1nbk5QZDVNejJGNXZMc21FamNCOHdPelBFWXpJY0JFeU5LenZKMTQzTUlmR2lzTzY5cU1yWmV3Rk1QazI1QnBlMXMybUo5OHY3aEZmSWRVSDZYclRIeEZXellyNzREOUxSd3NFdDd3WlNRL09kOWtTREpxWT0iLCJJcENsaWVudGUiOiIxMC4xNTguMS4xMjQiLCJOaXRGYXR1cmFkb3IiOiI5MDEyNDk4OTUiLCJpc3MiOiJUU1AgU29sdXRpb24iLCJhdWQiOiJodHRwOi8vd3d3LnRzcC1zb2x1dGlvbi5jb20vQ29uc3VsdGEiLCJleHAiOjE3MjE3NTIxNDcsIm5iZiI6MTcyMTc0ODU0N30.f5pAbpOwk01KxfdPo7CFCQZFUyw1iXba_cTTapd9evs","usuario":"901249895","password":"ec298d7b5e9195ae9388dfdf205273f18f885db0","sistema":"Siesa Enterprise UBL2.1","ip":"10.158.1.124","tipoenvio":"sync","factura":"<?xml version=\"1.0\" encoding=\"utf-8\"?><Invoice xmlns=\"urn:oasis:names:specification:ubl:schema:xsd:Invoice-2\" xmlns:ds=\"http://www.w3.org/2000/09/xmldsig#\" xmlns:cac=\"urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2\" xmlns:cbc=\"urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2\" xmlns:ext=\"urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:sts=\"dian:gov:co:facturaelectronica:Structures-2-1\" xmlns:xades=\"http://uri.etsi.org/01903/v1.3.2#\" xmlns:xades141=\"http://uri.etsi.org/01903/v1.4.1#\" xsi:schemaLocation=\"urn:oasis:names:specification:ubl:schema:xsd:Invoice-2     http://docs.oasis-open.org/ubl/os-UBL-2.1/xsd/maindoc/UBL-Invoice-2.1.xsd\"><ext:UBLExtensions><ext:UBLExtension><ext:ExtensionContent><sts:DianExtensions><sts:InvoiceControl><sts:InvoiceAuthorization>18764074840381</sts:InvoiceAuthorization><sts:AuthorizationPeriod><cbc:StartDate>2024-07-11</cbc:StartDate><cbc:EndDate>2026-07-10</cbc:EndDate></sts:AuthorizationPeriod><sts:AuthorizedInvoices><sts:Prefix>FE</sts:Prefix><sts:From>4070</sts:From><sts:To>10000</sts:To></sts:AuthorizedInvoices></sts:InvoiceControl><sts:InvoiceSource><cbc:IdentificationCode listAgencyID=\"6\" listAgencyName=\"United Nations Economic Commission for Europe\" listSchemeURI=\"urn:oasis:names:specification:ubl:codelist:gc:CountryIdentificationCode-2.1\">CO</cbc:IdentificationCode></sts:InvoiceSource><sts:AuthorizationProvider><sts:AuthorizationProviderID schemeAgencyID=\"195\" schemeAgencyName=\"CO, DIAN (Dirección de Impuestos y Aduanas Nacionales)\" schemeID=\"4\" schemeName=\"31\">800197268</sts:AuthorizationProviderID></sts:AuthorizationProvider><sts:QRCode>https://muisca.dian.gov.co/WebFacturaelectronica/paginas/VerificarFacturaElectronicaExterno.faces</sts:QRCode></sts:DianExtensions></ext:ExtensionContent></ext:UBLExtension></ext:UBLExtensions><cbc:UBLVersionID>UBL 2.1</cbc:UBLVersionID><cbc:CustomizationID>10</cbc:CustomizationID><cbc:ProfileID>DIAN 2.1: Factura Electrónica de Venta</cbc:ProfileID><cbc:ProfileExecutionID>1</cbc:ProfileExecutionID><cbc:ID>FE4070</cbc:ID><cbc:IssueDate>2024-07-15</cbc:IssueDate><cbc:IssueTime>08:45:59-05:00</cbc:IssueTime><cbc:DueDate>2024-10-15</cbc:DueDate><cbc:InvoiceTypeCode listAgencyID=\"195\" listAgencyName=\"CO, DIAN (Direccion de Impuestos y Aduanas Nacionales)\" listSchemeURI=\"http://www.dian.gov.co/contratos/facturaelectronica/v1/InvoiceType\">01</cbc:InvoiceTypeCode><cbc:Note /><cbc:Note /><cbc:Note /><cbc:Note /><cbc:Note /><cbc:Note /><cbc:Note /><cbc:Note /><cbc:Note /><cbc:Note /><cbc:Note /><cbc:Note /><cbc:Note /><cbc:Note /><cbc:Note /><cbc:Note /><cbc:Note /><cbc:Note /><cbc:Note /><cbc:Note /><cbc:Note /><cbc:Note /><cbc:Note /><cbc:Note /><cbc:Note /><cbc:Note /><cbc:Note /><cbc:Note /><cbc:Note /><cbc:Note /><cbc:Note /><cbc:Note /><cbc:Note /><cbc:Note /><cbc:Note /><cbc:Note /><cbc:Note /><cbc:Note /><cbc:Note /><cbc:Note /><cbc:Note /><cbc:Note /><cbc:Note /><cbc:Note /><cbc:Note /><cbc:Note /><cbc:Note /><cbc:Note /><cbc:Note /><cbc:Note /><cbc:Note>001|MI RED BARRANQUILLA IPS SAS|6083412.00</cbc:Note><cbc:DocumentCurrencyCode>COP</cbc:DocumentCurrencyCode><cbc:LineCountNumeric>1</cbc:LineCountNumeric><cac:OrderReference><cbc:ID>4562</cbc:ID></cac:OrderReference><cac:AccountingSupplierParty><cbc:AdditionalAccountID>1</cbc:AdditionalAccountID><cac:Party><cbc:IndustryClassificationCode>4645</cbc:IndustryClassificationCode><cac:PartyName><cbc:Name>SUPER MED SAS</cbc:Name></cac:PartyName><cac:PhysicalLocation><cac:Address><cbc:ID>08001</cbc:ID><cbc:CityName>Barranquilla</cbc:CityName><cbc:PostalZone>000000</cbc:PostalZone><cbc:CountrySubentity>Atlántico</cbc:CountrySubentity><cbc:CountrySubentityCode>08</cbc:CountrySubentityCode><cac:AddressLine><cbc:Line>CRA 57  99A 65 OFI 907</cbc:Line></cac:AddressLine><cac:Country><cbc:IdentificationCode>CO</cbc:IdentificationCode><cbc:Name languageID=\"es\">COLOMBIA</cbc:Name></cac:Country></cac:Address></cac:PhysicalLocation><cac:PartyTaxScheme><cbc:RegistrationName>SUPERMED SAS</cbc:RegistrationName><cbc:CompanyID schemeAgencyID=\"195\" schemeAgencyName=\"CO, DIAN (Dirección de Impuestos y Aduanas Nacionales)\" schemeID=\"3\" schemeName=\"31\">901249895</cbc:CompanyID><cbc:TaxLevelCode>O-23</cbc:TaxLevelCode><cac:RegistrationAddress><cbc:ID>08001</cbc:ID><cbc:CityName>Barranquilla</cbc:CityName><cbc:CountrySubentity>Atlántico</cbc:CountrySubentity><cbc:CountrySubentityCode>08</cbc:CountrySubentityCode><cac:AddressLine><cbc:Line>CARRERA 57 99A 65</cbc:Line></cac:AddressLine><cac:Country><cbc:IdentificationCode>CO</cbc:IdentificationCode><cbc:Name languageID=\"es\">COLOMBIA</cbc:Name></cac:Country></cac:RegistrationAddress><cac:TaxScheme><cbc:ID>01</cbc:ID><cbc:Name>IVA</cbc:Name></cac:TaxScheme></cac:PartyTaxScheme><cac:PartyLegalEntity><cbc:RegistrationName>SUPERMED SAS</cbc:RegistrationName><cbc:CompanyID schemeAgencyID=\"195\" schemeAgencyName=\"CO, DIAN (Dirección de Impuestos y Aduanas Nacionales)\" schemeID=\"3\" schemeName=\"31\">901249895</cbc:CompanyID><cac:CorporateRegistrationScheme><cbc:ID>FE</cbc:ID><cbc:Name>001</cbc:Name></cac:CorporateRegistrationScheme></cac:PartyLegalEntity><cac:Contact><cbc:Name>JENIFER JOHANA PALACIO BONFANTE</cbc:Name><cbc:Telephone>3148699</cbc:Telephone><cbc:ElectronicMail>gerencia.administrativa@supermed.com.co</cbc:ElectronicMail></cac:Contact></cac:Party><cac:SellerContact><cbc:ID>Generico</cbc:ID><cbc:Name>Genérico</cbc:Name></cac:SellerContact></cac:AccountingSupplierParty><cac:AccountingCustomerParty><cbc:SupplierAssignedAccountID>901139193</cbc:SupplierAssignedAccountID><cbc:AdditionalAccountID>1</cbc:AdditionalAccountID><cac:Party><cac:PartyName><cbc:Name>MI RED BARRANQUILLA IPS SAS</cbc:Name></cac:PartyName><cac:PhysicalLocation><cac:Address><cbc:ID>08001</cbc:ID><cbc:CityName>Barranquilla</cbc:CityName><cbc:CountrySubentity>Atlántico</cbc:CountrySubentity><cbc:CountrySubentityCode>08</cbc:CountrySubentityCode><cac:AddressLine><cbc:Line>VIA 40 N 73 290 PISO 9 ED. MIX EMPRES.</cbc:Line></cac:AddressLine><cac:Country><cbc:IdentificationCode>CO</cbc:IdentificationCode><cbc:Name languageID=\"es\">COLOMBIA</cbc:Name></cac:Country></cac:Address></cac:PhysicalLocation><cac:PartyTaxScheme><cbc:RegistrationName>MI RED BARRANQUILLA IPS SAS</cbc:RegistrationName><cbc:CompanyID schemeAgencyID=\"195\" schemeAgencyName=\"CO, DIAN (Dirección de Impuestos y Aduanas Nacionales)\" schemeID=\"1\" schemeName=\"31\">901139193</cbc:CompanyID><cbc:TaxLevelCode>O-23</cbc:TaxLevelCode><cac:RegistrationAddress><cbc:ID>08001</cbc:ID><cbc:CityName>Barranquilla</cbc:CityName><cbc:CountrySubentity>Atlántico</cbc:CountrySubentity><cbc:CountrySubentityCode>08</cbc:CountrySubentityCode><cac:AddressLine><cbc:Line>VIA 40 N 73 290 PISO 9 ED. MIX EMPRES.</cbc:Line></cac:AddressLine><cac:Country><cbc:IdentificationCode>CO</cbc:IdentificationCode><cbc:Name languageID=\"es\">COLOMBIA</cbc:Name></cac:Country></cac:RegistrationAddress><cac:TaxScheme><cbc:ID>01</cbc:ID><cbc:Name>IVA</cbc:Name></cac:TaxScheme></cac:PartyTaxScheme><cac:PartyLegalEntity><cbc:RegistrationName>MI RED BARRANQUILLA IPS SAS</cbc:RegistrationName><cbc:CompanyID schemeAgencyID=\"195\" schemeAgencyName=\"CO, DIAN (Dirección de Impuestos y Aduanas Nacionales)\" schemeID=\"1\" schemeName=\"31\">901139193</cbc:CompanyID></cac:PartyLegalEntity><cac:Contact><cbc:Name>YAMIL JIMENEZ</cbc:Name><cbc:Telephone /><cbc:Telefax /><cbc:ElectronicMail>comprasfarmacia@miredips.org</cbc:ElectronicMail></cac:Contact></cac:Party></cac:AccountingCustomerParty><cac:Delivery><cbc:ActualDeliveryDate>2024-07-15</cbc:ActualDeliveryDate><cbc:ActualDeliveryTime>00:00:00</cbc:ActualDeliveryTime><cac:DeliveryAddress><cbc:ID>08001</cbc:ID><cbc:CityName>Barranquilla</cbc:CityName><cbc:CountrySubentity>Atlántico</cbc:CountrySubentity><cbc:CountrySubentityCode>08</cbc:CountrySubentityCode><cac:AddressLine><cbc:Line>VIA 40 N 73 290 PISO 9 ED. MIX EMPRES.</cbc:Line></cac:AddressLine><cac:Country><cbc:IdentificationCode>CO</cbc:IdentificationCode><cbc:Name languageID=\"es\">COLOMBIA</cbc:Name></cac:Country></cac:DeliveryAddress></cac:Delivery><cac:PaymentMeans><cbc:ID>2</cbc:ID><cbc:PaymentMeansCode>1</cbc:PaymentMeansCode><cbc:PaymentDueDate>2024-10-15</cbc:PaymentDueDate></cac:PaymentMeans><cac:LegalMonetaryTotal><cbc:LineExtensionAmount currencyID=\"COP\">6083412.00</cbc:LineExtensionAmount><cbc:TaxExclusiveAmount currencyID=\"COP\">0.00</cbc:TaxExclusiveAmount><cbc:TaxInclusiveAmount currencyID=\"COP\">6083412.00</cbc:TaxInclusiveAmount><cbc:AllowanceTotalAmount currencyID=\"COP\">0.00</cbc:AllowanceTotalAmount><cbc:ChargeTotalAmount currencyID=\"COP\">0.00</cbc:ChargeTotalAmount><cbc:PrepaidAmount currencyID=\"COP\">0.00</cbc:PrepaidAmount><cbc:PayableRoundingAmount currencyID=\"COP\">0.00</cbc:PayableRoundingAmount><cbc:PayableAmount currencyID=\"COP\">6083412.00</cbc:PayableAmount></cac:LegalMonetaryTotal><cac:InvoiceLine><cbc:ID>1</cbc:ID><cbc:Note /><cbc:Note /><cbc:Note /><cbc:Note /><cbc:Note /><cbc:Note /><cbc:Note /><cbc:Note /><cbc:Note /><cbc:Note /><cbc:Note /><cbc:InvoicedQuantity unitCode=\"NIU\">4</cbc:InvoicedQuantity><cbc:LineExtensionAmount currencyID=\"COP\">6083412.00</cbc:LineExtensionAmount><cbc:FreeOfChargeIndicator>false</cbc:FreeOfChargeIndicator><cac:Item><cbc:Description>SURFACTANTE PULMONAR (CUROSURF) VIAL 3ML</cbc:Description><cac:SellersItemIdentification><cbc:ID>19906076-01</cbc:ID></cac:SellersItemIdentification><cac:StandardItemIdentification><cbc:ID schemeID=\"999\" schemeName=\"Generico\">3182</cbc:ID></cac:StandardItemIdentification><cac:ItemInstance><cac:LotIdentification><cbc:LotNumberID>1188554</cbc:LotNumberID><cbc:ExpiryDate>2025-07-31</cbc:ExpiryDate></cac:LotIdentification></cac:ItemInstance></cac:Item><cac:Price><cbc:PriceAmount currencyID=\"COP\">1520853.00</cbc:PriceAmount><cbc:BaseQuantity unitCode=\"NIU\">4.00</cbc:BaseQuantity></cac:Price></cac:InvoiceLine></Invoice>"}
+23/07/2024 10:48:55 a. m.   Inicio de envio de docto a API recepcion de doctos UBL 2.1
+23/07/2024 10:48:57 a. m.   URL Peticion: https://siesafe.siesacloud.com:553/api/recepcion/certificaXML
+23/07/2024 10:48:57 a. m.   Codigo: 510
+Mensaje: Documento rechazado por la DIAN.
+Validaciones DIAN: ************** Listado validadiones DIAN **************
+
+Codigo: 
+  0000
+Descripción: 
+  0
+--------------------------------------------------------------
+
+Codigo: 
+  FAB08b
+Descripción: 
+  Fecha final del rango de numeración informado no corresponde a la fecha final del rango vigente para el ABS
+--------------------------------------------------------------
+
+Regla:  FAB08b, Rechazo: Fecha final del rango de numeración informado no corresponde a la fecha final del rango vigente para el ABS-
+--------------------------------------------------------------
+
+Regla:  FAM06, Notificación: El nombre no corresponde a un valor válido de la lista-
+--------------------------------------------------------------
+
+Regla:  FAJ43b, Notificación: Nombre informado No corresponde al registrado en el RUT con respecto al Nit suminstrado.-
+--------------------------------------------------------------
+
+Regla:  FAJ43b, Notificación: Nombre informado No corresponde al registrado en el RUT con respecto al Nit suminstrado.-
+--------------------------------------------------------------
+
+Regla:  RUT01, Notificación: La validación del estado del RUT próximamente estará disponible.-
+--------------------------------------------------------------
+
+Regla:  RUT01, Notificación: La validación del estado del RUT próximamente estará disponible.
+--------------------------------------------------------------
+
+No se encontraron más validaciones DIAN
+23/07/2024 10:48:57 a. m.   Error: Codigo: 510
+Mensaje: Documento rechazado por la DIAN.
+Detalle error:    at Microsoft.VisualBasic.ErrObject.Raise(Int32 Number, Object Source, Object Description, Object HelpFile, Object HelpContext)
+   at SvcServicioCFD.SvcServicioCFD.ProcesarFECoSiesa_Aspel2_1(clsRecordset pvRstEncabezado, dtcParamsCFD pvDtcSincronizador)

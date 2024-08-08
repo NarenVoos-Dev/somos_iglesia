@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testimonial Carousel</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .testimonial-icon {
+            font-size: 3rem;
+            color: #6c757d; /* Color del ícono */
+        }
+        .carousel-item {
+            text-align: center;
+            padding: 2rem 1rem;
+        }
+        .testimonial-text {
+            font-style: italic;
+            color: #343a40;
+        }
+        .testimonial-author {
+            font-weight: bold;
+            margin-top: 1rem;
+            color: #007bff; /* Color del nombre del autor */
+        }
+    </style>
+    <!-- Incluye la librería de iconos de Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <div id="testimonialCarousel" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <i class="fas fa-comment testimonial-icon"></i>
+                    <p class="testimonial-text">"This is a great product! It has really helped me improve my workflow."</p>
+                    <p class="testimonial-author">- John Doe</p>
+                </div>
+                <div class="carousel-item">
+                    <i class="fas fa-comment testimonial-icon"></i>
+                    <p class="testimonial-text">"Excellent service and customer support. Highly recommend to others."</p>
+                    <p class="testimonial-author">- Jane Smith</p>
+                </div>
+                <div class="carousel-item">
+                    <i class="fas fa-comment testimonial-icon"></i>
+                    <p class="testimonial-text">"A fantastic experience from start to finish. Will definitely use again."</p>
+                    <p class="testimonial-author">- Sam Wilson</p>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#testimonialCarousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#testimonialCarousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

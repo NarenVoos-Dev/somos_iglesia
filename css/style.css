@@ -1,0 +1,423 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/kiona-2');
+:root{
+    --color-black: #000; /*Color negro*/
+    --color-brown: #321D08; /*Color cafe*/
+    --color-brownish-gray: rgb(107, 106, 97); /*Color beich*/
+    --color-beige : #EAE6DD; /*Color blanco*/
+    --color-gris-light: #CAC6C3; /*Color gris*/
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kiona', sans-serif;
+                                                
+}
+
+nav {
+    background-color: var(--color-black);
+    padding: 16px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 2000;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-logo {
+    margin-right: 20px;
+}
+
+.nav-logo img {
+    height: 90px;
+}
+
+.nav-item {
+    position: relative;
+    margin: 0 5px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: var(--color-beige);
+    font-weight: 300;
+  
+}
+
+.nav-link:hover,
+.nav-link:focus,
+.nav-link:active {
+    color: var(--color-brownish-gray); /* Cambia este valor al color que prefieras */
+}
+
+.navbar-nav .nav-link.active, 
+.navbar-nav .nav-link.show {
+    color: var(--color-brown);
+    font-weight: bolder;
+    background-color: var(--color-beige);
+}
+
+.navbar-toggler{
+    background-color: var(--color-beige);
+}
+
+
+.dropdown-menu {
+    display: none;
+    background-color: var(--color-black);
+    list-style: none;
+    padding: 10px 0;
+    margin: 0;
+    z-index: 1000;
+}
+.nav-item:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown-item {
+    padding: 10px 20px;
+    text-decoration: none;
+    color: var(--color-beige);
+    display: block;
+    transition: background-color 0.3s;
+}
+  
+.dropdown-item:hover {
+    background-color: var(--color-brown);
+    color: var(--color-beige);
+}
+
+/*Carrucel*/
+.carousel{
+    position: relative;
+}
+.carousel-inner{
+    height: 550px;
+}
+.carousel-item {
+    height: 100%;
+     transition:   1s ease-in-out;
+}
+
+.carousel-item-next,
+.carousel-item-prev,
+.carousel-item.active {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  opacity: 1;
+}
+
+.carousel-item.active {
+  opacity: 1;
+  position: relative;
+}
+
+.carousel-item-next.carousel-item-left,
+.carousel-item-prev.carousel-item-right,
+.carousel-item-next,
+.carousel-item-prev {
+  transform: none;
+}
+
+/*Capa Oscura de carrucel */
+.carousel-item::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to top, rgba(0, 0, 1, 1), rgba(0, 0, 0, 0));
+    z-index: 1;
+}
+
+.carousel-item img{
+    position: relative;
+    z-index: 0;
+}
+
+.carousel-header{
+    display: flex;
+    flex-direction: column;
+    position:absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    z-index: 2;
+    background-color: #797b7c2c;
+    padding: 10px;
+    border-radius: 1rem;
+    box-shadow: 0 10px 10px rgba(19, 18, 18, 0.1);
+
+}
+
+.carousel-header h1{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    font-weight: 300;
+}
+
+.carousel-footer{
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 100px;
+}
+/*Acerca de */
+.title{
+    text-align: center;
+    align-items: center;
+
+}
+
+.title h1{
+    color: var(--color-gris-light);
+    display: inline-block;
+    position: relative;
+}
+
+.acerca-de{
+    background-color: var(--color-black);
+    padding-top: 50px;  
+
+    .title p{
+        text-align: center;
+        color: var(--color-beige);
+    }
+
+    .acerca-data{
+        margin-top: 30px;
+    }
+    .acerca-data p{
+        font-size: 16px;
+        text-align: justify;
+        color: var(--color-beige);
+    }
+    .card {
+        border: 0;
+        background-color: transparent;
+    }
+    .card img{
+        overflow: hidden;
+        border-radius: 20px;
+    }
+}
+
+
+
+/*donaciones, locacion, conexiones*/
+
+.section-md{
+    display: flex;
+    .container-fluid{
+        background-color: var(--color-beige);
+        position: relative;
+        border: 0;
+        padding-top: 5rem;
+        padding-bottom: 2rem;
+    }
+
+    .card{
+       background-color: transparent;
+        z-index: 1000;
+        border: 0;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .card-body{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    p{
+        font-size: 16px;
+        font-weight: 500;
+        margin-top: 1.5rem;
+        color: var(--color-black);
+     }
+}
+
+.section-md  svg{
+    width: 70px !important;
+    height: 80px !important;
+    fill: var(--color-black);
+    transition:   0.5s ease-in-out;
+}
+.section-md  svg:hover{
+    width: 75px !important;
+    height: 85px !important;
+    transition:   0.5s ease-in-out;
+}
+
+
+footer{
+    background-color: var(--color-black);
+    color: var(--color-beige);
+
+    .section-footer .container{
+        justify-content: center;
+        padding: 1rem;
+    }
+
+    .footer-social{
+        justify-content: center;
+        gap: 1rem;
+    }
+
+    .card{
+        background-color: transparent;
+        justify-content: center;
+    }
+    .card-title{
+        color: var(--color-brownish-gray);
+        font-weight: 900;
+    }
+    .card-body p{
+        color: var(--color-beige);
+    }
+    .card img{
+        width: 11rem;
+    }
+
+    .footer-social svg{
+        align-items: center;
+        justify-content: center;
+        width: 25px !important;
+        height:25px !important;
+        object-fit: cover;
+        fill: var(--color-beige);
+        transition:   0.5s ease-in-out;
+    }
+
+    .footer-social svg:hover{
+        width: 35px !important;
+        height:35px !important;
+        object-fit: cover;
+        fill: var(--color-beige);
+        transition:   0.3s ease-in-out;
+    }
+}
+
+/*Boton flotante de whatsapp*/
+.btn-whatsapp{
+    right: 5vh;
+    bottom: 0px;
+    width: 50px;
+    height: 50px;
+    border: 2px solid var(--color-black);
+    border-radius: 50%;
+    z-index: 3000;
+    text-align: center;
+    align-items: center;
+    position: fixed;
+    bottom: 10px;
+    background-color: var(--color-beige);
+    box-shadow: 1px 1px 9px rgb(107, 106, 97);
+
+    a svg{
+        text-align: center;
+        margin-top: 10px;
+        justify-content: center;
+        width: 25px !important;
+        height:25px !important;
+        fill: var(--color-black);
+
+    }
+
+}
+.btn-whatsapp:hover{
+    width: 60px;
+    height: 60px;
+
+    a svg{
+        width: 35px !important;
+        height:35px !important;
+
+
+    }
+}
+
+/**********MEDIAS QUERIES**********************/
+@media screen and (max-width:1024px){
+    .nav-item {
+        margin: 0;
+    }
+    .nav-link {       
+        padding: 10px 12px;
+    }
+
+}
+
+@media screen and (max-width:768px){
+    .carousel-inner{
+        height: 100%;
+    }
+    
+    .carousel-header{
+        top: 30%;
+        left: 50%;
+    }
+
+    .carousel-header h1{
+        font-size: 2rem;
+        font-weight: 300;
+    }
+    
+
+    .section-md  svg{
+        width: 60px !important;
+        height: 7 0px !important;
+    }
+    
+    footer{
+   
+        .section-footer .container{
+            display:contents;
+            justify-content: center;
+            width: 100%;
+           
+        }
+
+        .footer-social{
+            justify-content: center;
+            gap: 0.5rem;
+        }    
+
+  
+
+    }
+}
+
+@media screen and (max-width:510px){
+    .carousel-inner{
+        height: 100%;
+    }
+    .carousel-header h1{
+        font-size: 1.2rem;
+        font-weight: 200;
+    }
+    
+
+    .section-md  svg{
+        width: 40px !important;
+        height: 50px !important;
+    }
+    
+}
